@@ -17,6 +17,11 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     
     <style>
+        body {
+            background-color: white;  /* Weißer Hintergrund */
+            color: black;             /* Schwarze Standardschrift */
+            font-size: 18px;
+        }
         .team-wrapper {
             text-align: center;
             margin-bottom: 30px;
@@ -26,15 +31,30 @@
             max-height: 200px; /* Einheitliche Bildhöhe */
             display: block;
             margin: 0 auto;
+            border-radius: 10px;
+            border: 0px solid #000; /* Schwarzer Rahmen */
         }
         h2 {
             font-size: 28px;
         }
-        h4 {
-            font-size: 20px;
+        h3 {
+            margin-top: 15px;
+            font-size: 22px;
+            color: black;
+        }
+        h5 {
+            font-size: 18px;
+            color: #555;
         }
         p, li {
             font-size: 18px;
+        }
+        a {
+            color: #0056b3; /* Blau für Links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -43,10 +63,10 @@
     <div id="contact2">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-12 col-md-offset-2" style="color:white">
+                <div class="col-md-8 col-sm-12 col-md-offset-2">
                     <h2 style="margin-top:100px">Kontakt</h2>
                     <p>Wir freuen uns, von dir zu hören! Du kannst uns per Telefon oder E-Mail erreichen oder uns in unserem Klubheim besuchen.</p>
-                    <p>Adresse: Kienbergstrasse 18, 6330 Kufstein</p>
+                    <p><strong>Adresse:</strong> Kienbergstraße 18, 6330 Kufstein</p>
                 </div>
             </div>
         </div>
@@ -87,12 +107,10 @@
     </div>
     
     <!-- JavaScript -->
-
-<!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
