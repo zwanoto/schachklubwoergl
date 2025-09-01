@@ -7,16 +7,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- stylesheet css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/nivo_themes/default/default.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
+    
     <!-- custom css -->
     <style>
-        p {
-            color: white;
+        body {
+            background-color: white;   /* Weißer Hintergrund */
+            color: black;              /* Schwarze Standardschrift */
+            font-size: 18px;
         }
         .team-wrapper {
             text-align: center;
@@ -24,18 +28,40 @@
         }
         .team-wrapper img {
             width: 100%;
-            max-width: 200px; /* Anpassung der Bildgröße */
+            max-width: 200px;
             height: auto;
             margin: 0 auto;
         }
         h2 {
-            font-size: 28px; /* Default increased by 2 units */
+            font-size: 28px;
         }
         h4 {
-            font-size: 20px; /* Default increased by 2 units */
+            font-size: 20px;
         }
         p, li {
-            font-size: 18px; /* Default increased by 2 units */
+            font-size: 18px;
+        }
+        a {
+            color: #0056b3; /* Blau für Links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background-color: #fafafa;
+            padding: 15px;
+        }
+        .card-header {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .card-body p {
+            margin: 0;
         }
     </style>
 </head>
@@ -45,9 +71,7 @@
 
 <div class="container">
     <h2 class="text-center">Nützliche Schachlinks</h2>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
     <div class="row">
         
         <!-- Österreichischer Schachbund -->
@@ -59,8 +83,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- Deutscher Schachbund -->
-        <div class="col-md-6 link-card">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header"><a href="https://www.schachbund.de/" target="_blank">Deutscher Schachbund</a></div>
                 <div class="card-body">
@@ -68,8 +93,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- Tiroler Landesverband -->
-        <div class="col-md-6 link-card">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header"><a href="https://tirol.chess.at/" target="_blank">Tiroler Landesverband</a></div>
                 <div class="card-body">
@@ -77,8 +103,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- ChessBase -->
-        <div class="col-md-6 link-card">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header"><a href="https://de.chessbase.com/" target="_blank">ChessBase</a></div>
                 <div class="card-body">
@@ -86,8 +113,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- Lichess -->
-        <div class="col-md-6 link-card">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header"><a href="https://lichess.org/" target="_blank">Lichess</a></div>
                 <div class="card-body">
@@ -95,8 +123,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- Chess.com -->
-        <div class="col-md-6 link-card">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header"><a href="https://www.chess.com/" target="_blank">Chess.com</a></div>
                 <div class="card-body">
@@ -104,8 +133,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- Perlen vom Bodensee -->
-        <div class="col-md-6 link-card">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header"><a href="https://perlenvombodensee.de/" target="_blank">Perlen vom Bodensee</a></div>
                 <div class="card-body">
@@ -115,9 +145,8 @@
         </div>
     </div>
 </div>
-<br>
-<br>
-<br>
+
+<br><br><br>
 <!-- footer -->
 <div id="footer"></div>
 
